@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://fonts.cdnfonts.com/css/arcade-classic" rel="stylesheet">              
   <link rel="stylesheet" href="RPS.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,10 +9,12 @@
 </head>
 <body>
   <div class="rps-choice-container">
-      <button class="rock-button"></button>
-      <button class="paper-button"></button>
-      <button class="scissors-button"></button>
+      <button class="rock-button" onclick="humanChoice = 'rock';
+      playRound();"></button>
+      <button class="paper-button" onclick="humanChoice += 'paper'"></button>
+      <button class="scissors-button" onclick="humanChoice += 'scissors'"></button>
   </div>
+  <p class="result-para js-result-para">Result:</p>
 
   <script src="RPS.js"></script>
 </body>
