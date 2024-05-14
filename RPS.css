@@ -54,7 +54,44 @@ body {
   font-family: 'ArcadeClassic', sans-serif;
   margin-left: 1000px;
   margin-right: 1000px;
+  margin-bottom: 100px;
 }
+
+.score-para {
+  font-size: 60px;
+  font-family: 'ArcadeClassic', sans-serif;
+  margin-left: 1000px;
+  margin-right: 1000px;
+}
+
+.score-result-para {
+  font-size: 50px;
+  font-family: 'ArcadeClassic', sans-serif;
+  margin-left: 1000px;
+  margin-right: 1000px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.js-win-lose {
+  font-size: 75px;
+  font-family: 'ArcadeClassic', sans-serif;
+  margin-left: 1000px;
+  margin-right: 1000px;
+}
+
+.new-match-button {
+  padding: 10px 30px 10px 30px;
+  margin-left: 1000px;
+  margin-right: 1000px; 
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  border:none;
+  cursor: pointer;
+  opacity: 0;
+}
+
 
 
 

@@ -11,10 +11,20 @@
   <div class="rps-choice-container">
       <button class="rock-button" onclick="humanChoice = 'rock';
       playRound();"></button>
-      <button class="paper-button" onclick="humanChoice += 'paper'"></button>
-      <button class="scissors-button" onclick="humanChoice += 'scissors'"></button>
+      <button class="paper-button" onclick="humanChoice = 'paper';
+      playRound();"></button>
+      <button class="scissors-button" onclick="humanChoice = 'scissors';
+      playRound();"></button>
   </div>
   <p class="result-para js-result-para">Result:</p>
+  <p class="score-para">Score! Win 5x</p>
+  <p class="score-result-para js-win-para">Wins: 0</p>
+  <p class="score-result-para js-lose-para">Losses: 0</p>
+
+  <p class="js-win-lose"></p>
+  <button class="new-match-button" onclick="document.querySelector('.new-match-button').style.opacity= 0;
+  document.querySelector('.js-win-lose').innerHTML = '';
+  resetScore();"></button>
 
   <script src="RPS.js"></script>
 </body>
